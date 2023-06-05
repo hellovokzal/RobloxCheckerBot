@@ -459,4 +459,4 @@ def voice(message):
         bot.send_message(message.chat.id, "🌐 Активный!")
     else:
         bot.send_message(message.chat.id, "❌ Неактивный!")
-bot.polling()
+bot.polling(none_stop=True)
