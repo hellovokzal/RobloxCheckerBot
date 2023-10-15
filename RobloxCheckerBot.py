@@ -2,7 +2,7 @@
 import requests
 import telebot
 # Создать бота
-bot = telebot.TeleBot("5991042188:AAGRfAZfr_33YtcOJQPtkt9wC6SZ8iUtXF8")
+bot = telebot.TeleBot("6116035781:AAHhJzVIE-Hk1eeEYq29AHhVSRTfspfx-TU")
 # При старте
 @bot.message_handler(commands=['start'])
 def start(message):
